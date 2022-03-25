@@ -1,0 +1,29 @@
+<xml xmlns="http://www.w3.org/1999/xhtml">
+  <tab name="init" type="InitTab" active="false" scrollx="872" scrolly="435" scale="0.9"></tab>
+  <tab name="main" type="MainTab" active="true" scrollx="885.111083984375" scrolly="506.1110839843751" scale="1">
+    <block xmlns="https://developers.google.com/blockly/xml" type="Elfsquad/onConfigurationUpdate" id="#iN@PoLUttubcy$*C?;;" x="-690" y="-310">
+      <statement name="stmnt">
+        <block type="hide" id="awS:(s%N#~gRx)bMkK7g">
+          <value name="VALUE">
+            <shadow type="objectList" id="urjOD-8k-41Ax8KhpO~/">
+              <field name="FIELDNAME">_sink</field>
+            </shadow>
+          </value>
+          <next>
+            <block type="console.log" id=")B]{dX[qY|4JB),Av86*">
+              <value name="VALUE">
+                <shadow type="text" id="+C8S,,9#P.fms]iBC!|A">
+                  <field name="TEXT">Hello, Verge!</field>
+                </shadow>
+                <block type="Elfsquad/getValueByName" id="Bbs.1`Iga8MP7WAj:g(t">
+                  <field name="featureName">Wastafel</field>
+                </block>
+              </value>
+            </block>
+          </next>
+        </block>
+      </statement>
+    </block>
+  </tab>
+  <editorsettings viewport-x="1134" viewport-y="28" viewport-w="768" viewport-h="473" viewport-hidden="false" toolbox-library-mode="false" toolbox-minimized-mode="false"></editorsettings>
+</xml>
