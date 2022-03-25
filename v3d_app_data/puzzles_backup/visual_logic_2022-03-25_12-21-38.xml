@@ -1,0 +1,70 @@
+<xml xmlns="http://www.w3.org/1999/xhtml">
+  <tab name="init" type="InitTab" active="false" scrollx="872" scrolly="435.00000000000006" scale="0.9"></tab>
+  <tab name="main" type="MainTab" active="true" scrollx="996.1851806640625" scrolly="526.705078125" scale="1">
+    <block xmlns="https://developers.google.com/blockly/xml" type="Elfsquad/onConfigurationUpdate" id="#iN@PoLUttubcy$*C?;;" x="-690" y="-310">
+      <statement name="stmnt">
+        <block type="console.log" id=",~qkBDVdgS9jki#sxI,L">
+          <value name="VALUE">
+            <shadow type="text" id="2Z-L|VU8L]fYCB_9F4Wh">
+              <field name="TEXT">Hello, Verge!</field>
+            </shadow>
+            <block type="Elfsquad/getValueByName" id="Cr}-drTA9T}BNDeF(usp">
+              <field name="featureName">Groene Onderbouwkast</field>
+            </block>
+          </value>
+          <next>
+            <block type="console.log" id="a|pEo-P2;*0yW:iVM$wh">
+              <value name="VALUE">
+                <shadow type="text">
+                  <field name="TEXT">Hello, Verge!</field>
+                </shadow>
+                <block type="Elfsquad/getValueByName" id="Yj+RdX7f|Xx?mWd/z-[l">
+                  <field name="featureName">Bordeaux Onderbouwkast</field>
+                </block>
+              </value>
+              <next>
+                <block type="controls_if" id="FqGTPNL6;fKk,**I!:^K">
+                  <value name="IF0">
+                    <block type="logic_compare" id="}9/[VSBVt,@Cu74*b{N%">
+                      <field name="OP">EQ</field>
+                      <value name="A">
+                        <block type="Elfsquad/getValueByName" id="wG/hhQ?CSSb2@{d}3gXb">
+                          <field name="featureName">Groene Onderbouwkast</field>
+                        </block>
+                      </value>
+                      <value name="B">
+                        <block type="math_number" id="fUu/bS/$f7ogla45Lpm,">
+                          <field name="NUM">1</field>
+                        </block>
+                      </value>
+                    </block>
+                  </value>
+                  <next>
+                    <block type="controls_if" id="=Gg+b9Pe*2{;2wv`oQdU">
+                      <value name="IF0">
+                        <block type="logic_compare" id="tRyR1)b^Ib}Sc~f1T~gL">
+                          <field name="OP">EQ</field>
+                          <value name="A">
+                            <block type="Elfsquad/getValueByName" id="{-l]U@UF)QrX~VH#0}tS">
+                              <field name="featureName">Bordeaux Onderbouwkast</field>
+                            </block>
+                          </value>
+                          <value name="B">
+                            <block type="math_number" id="94H;OHY4Ln}]TUmOqtxp">
+                              <field name="NUM">1</field>
+                            </block>
+                          </value>
+                        </block>
+                      </value>
+                    </block>
+                  </next>
+                </block>
+              </next>
+            </block>
+          </next>
+        </block>
+      </statement>
+    </block>
+  </tab>
+  <editorsettings viewport-x="1134" viewport-y="28" viewport-w="768" viewport-h="473" viewport-hidden="false" toolbox-library-mode="false" toolbox-minimized-mode="false"></editorsettings>
+</xml>

@@ -1,6 +1,6 @@
 <xml xmlns="http://www.w3.org/1999/xhtml">
   <tab name="init" type="InitTab" active="false" scrollx="872" scrolly="435.00000000000006" scale="0.9"></tab>
-  <tab name="main" type="MainTab" active="true" scrollx="984" scrolly="434" scale="1">
+  <tab name="main" type="MainTab" active="true" scrollx="888" scrolly="465" scale="1">
     <block xmlns="https://developers.google.com/blockly/xml" type="Elfsquad/onConfigurationUpdate" id="#iN@PoLUttubcy$*C?;;" x="-690" y="-310">
       <statement name="stmnt">
         <block type="console.log" id=",~qkBDVdgS9jki#sxI,L">
