@@ -1,6 +1,6 @@
 <xml xmlns="http://www.w3.org/1999/xhtml">
   <tab name="init" type="InitTab" active="false" scrollx="872" scrolly="435.00000000000006" scale="0.9"></tab>
-  <tab name="main" type="MainTab" active="true" scrollx="1081" scrolly="224" scale="1">
+  <tab name="main" type="MainTab" active="true" scrollx="1018" scrolly="393" scale="1">
     <block xmlns="https://developers.google.com/blockly/xml" type="Elfsquad/onConfigurationUpdate" id="#iN@PoLUttubcy$*C?;;" x="-690" y="-310">
       <statement name="stmnt">
         <block type="console.log" id=",~qkBDVdgS9jki#sxI,L">
@@ -165,43 +165,6 @@
                                   </next>
                                 </block>
                               </statement>
-                              <next>
-                                <block type="controls_ifelse" id="[ZKc}:Ti([uA%Dn)(H-w">
-                                  <value name="IF0">
-                                    <block type="logic_compare" id="h6D[)?G8Yz%LnCv1P(zJ">
-                                      <field name="OP">EQ</field>
-                                      <value name="A">
-                                        <block type="Elfsquad/getValueByName" id="C1gI!7p8C~CFgl5k*lCW">
-                                          <field name="featureName">Hangkast</field>
-                                        </block>
-                                      </value>
-                                      <value name="B">
-                                        <block type="math_number" id="lSwx/lhpOY*WK/fu+k]z">
-                                          <field name="NUM">1</field>
-                                        </block>
-                                      </value>
-                                    </block>
-                                  </value>
-                                  <statement name="DO0">
-                                    <block type="show" id="J!6?0)Wx%iU)*,_YhoyQ">
-                                      <value name="VALUE">
-                                        <shadow type="objectList" id="|Ii{osB4NUdreVRGKNM)">
-                                          <field name="FIELDNAME">_Planks.001</field>
-                                        </shadow>
-                                      </value>
-                                    </block>
-                                  </statement>
-                                  <statement name="ELSE">
-                                    <block type="hide" id="k@Jfgbg=|7~S/{/;/[+)">
-                                      <value name="VALUE">
-                                        <shadow type="objectList" id="5}];pt2)sa[J*{~gtx-W">
-                                          <field name="FIELDNAME">_Planks.001</field>
-                                        </shadow>
-                                      </value>
-                                    </block>
-                                  </statement>
-                                </block>
-                              </next>
                             </block>
                           </next>
                         </block>
